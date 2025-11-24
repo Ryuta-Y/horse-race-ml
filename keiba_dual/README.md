@@ -1,4 +1,4 @@
-# 二刀流プロジェクト（当日オッズなし／あり両対応）— 即運用版
+#（当日オッズなし／あり両対応）— 即運用版
 
 ## 0) セットアップ
 ```bash
@@ -6,7 +6,6 @@ python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 cp .env.example .env
-# 🔴 .env を開いて、あなたの URL/トークン or ログインID/パスワード に置換
 ```
 
 ## 1) 前処理 → 学習
